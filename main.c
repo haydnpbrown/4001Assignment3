@@ -2,31 +2,38 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/wait.h>
 
 int main() {
 
     pid_t pid;
+    int stat_val;
     printf("fork program starting \n");
     pid = fork();
-    int entry;
-    char *p2Args[] = {NULL};
+
 
     if (pid == -1){
         printf("error forking");
     } else if (pid == 0) {
-        printf("process 2 starting... \n");
-        //exec
-        execvp("/home/haydn/CLionProjects/4001Assignment3/p2", p2Args);
-    } else {
-        printf("process 1 is running! \n");
-        scanf("%d", &entry);
-        if (entry == 1){
-            printf("process 1 is running! \n");
+        int entry;
+        printf("process 2 is running! \n");
+
+        while(1){
+            scanf("%d", &entry);
+            if (entry == 2){
+                printf("process 2 is running! \n");
+            } else {
+                printf("process 2 is done \n");
+                exit(1);
+            }
         }
-        printf("process 1 is done");
+
+    } else {
+        printf("Parent forked, now waiting for P2 to finish... \n");
+        wait(&stat_val);
     }
 
-    sleep(5);
+    printf("both processes finished. \n");
 
     return 0;
 }
