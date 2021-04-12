@@ -3,4 +3,4 @@ project(4001Assignment3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(4001Assignment3 main.c)
+add_executable(4001Assignment3 main.c ATM.c ATM_header.h DBServer.c process2.c)

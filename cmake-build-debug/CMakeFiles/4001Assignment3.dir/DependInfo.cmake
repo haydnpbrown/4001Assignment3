@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/haydn/CLionProjects/4001Assignment3/main.c" "/home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/main.c.o"
+  "/home/chase/Documents/GitHub/4001Assignment3/ATM.c" "/home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/ATM.c.o"
+  "/home/chase/Documents/GitHub/4001Assignment3/DBServer.c" "/home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/DBServer.c.o"
+  "/home/chase/Documents/GitHub/4001Assignment3/main.c" "/home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/main.c.o"
+  "/home/chase/Documents/GitHub/4001Assignment3/process2.c" "/home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/process2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

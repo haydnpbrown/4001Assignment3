@@ -1,0 +1,11 @@
+//
+// Created by chase on 2021-04-09.
+//
+
+#ifndef INC_4001ASSIGNMENT3_ATM_HEADER_H
+#define INC_4001ASSIGNMENT3_ATM_HEADER_H
+
+#endif //INC_4001ASSIGNMENT3_ATM_HEADER_H
+
+
+void ATM();

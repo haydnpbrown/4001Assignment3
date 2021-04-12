@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/4001Assignment3.dir/main.c.o  -o 4001Assignment3 
+/usr/bin/cc -g CMakeFiles/4001Assignment3.dir/main.c.o CMakeFiles/4001Assignment3.dir/ATM.c.o CMakeFiles/4001Assignment3.dir/DBServer.c.o CMakeFiles/4001Assignment3.dir/process2.c.o -o 4001Assignment3 
