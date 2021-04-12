@@ -16,7 +16,7 @@ int main() {
     } else if (pid == 0) {
         printf("process 2 starting... \n");
         //exec
-        execvp("/home/haydn/CLionProjects/4001Assignment3/p2", p2Args);
+        execvp("/home/chase/Documents/GitHub/4001Assignment3/p2", p2Args);
     } else {
         printf("process 1 is running! \n");
         scanf("%d", &entry);

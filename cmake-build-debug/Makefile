@@ -67,10 +67,10 @@ RM = /snap/clion/149/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haydn/CLionProjects/4001Assignment3
+CMAKE_SOURCE_DIR = /home/chase/Documents/GitHub/4001Assignment3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haydn/CLionProjects/4001Assignment3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles /home/haydn/CLionProjects/4001Assignment3/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles /home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chase/Documents/GitHub/4001Assignment3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,33 +169,6 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/main.c.s
 .PHONY : main.c.s
 
-process2.o: process2.c.o
-
-.PHONY : process2.o
-
-# target to build an object file
-process2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.o
-.PHONY : process2.c.o
-
-process2.i: process2.c.i
-
-.PHONY : process2.i
-
-# target to preprocess a source file
-process2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.i
-.PHONY : process2.c.i
-
-process2.s: process2.c.s
-
-.PHONY : process2.s
-
-# target to generate assembly for a file
-process2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.s
-.PHONY : process2.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,9 +181,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... process2.o"
-	@echo "... process2.i"
-	@echo "... process2.s"
 .PHONY : help
 
 

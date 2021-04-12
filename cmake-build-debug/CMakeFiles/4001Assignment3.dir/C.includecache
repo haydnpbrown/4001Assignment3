@@ -6,13 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/haydn/CLionProjects/4001Assignment3/main.c
-stdio.h
--
-sys/types.h
--
-unistd.h
--
-stdlib.h
--
-
