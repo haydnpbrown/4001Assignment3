@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "4001Assignment3"
   "4001Assignment3.pdb"
   "CMakeFiles/4001Assignment3.dir/main.c.o"
+  "CMakeFiles/4001Assignment3.dir/process2.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

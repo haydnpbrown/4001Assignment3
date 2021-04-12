@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/main.c.s
 .PHONY : main.c.s
 
+process2.o: process2.c.o
+
+.PHONY : process2.o
+
+# target to build an object file
+process2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.o
+.PHONY : process2.c.o
+
+process2.i: process2.c.i
+
+.PHONY : process2.i
+
+# target to preprocess a source file
+process2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.i
+.PHONY : process2.c.i
+
+process2.s: process2.c.s
+
+.PHONY : process2.s
+
+# target to generate assembly for a file
+process2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.s
+.PHONY : process2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,6 +208,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... process2.o"
+	@echo "... process2.i"
+	@echo "... process2.s"
 .PHONY : help
 
 
