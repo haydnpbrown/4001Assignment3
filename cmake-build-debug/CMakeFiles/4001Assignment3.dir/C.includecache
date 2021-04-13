@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/chase/Documents/GitHub/4001Assignment3/main.c
+stdio.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+stdlib.h
+-
+errno.h
+-
+sys/shm.h
+-
+
