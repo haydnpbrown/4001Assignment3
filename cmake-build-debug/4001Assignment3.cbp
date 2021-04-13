@@ -82,6 +82,12 @@
 		<Unit filename="/home/haydn/CLionProjects/4001Assignment3/process2.c">
 			<Option target="4001Assignment3"/>
 		</Unit>
+		<Unit filename="/home/haydn/CLionProjects/4001Assignment3/semfuncs.c">
+			<Option target="4001Assignment3"/>
+		</Unit>
+		<Unit filename="/home/haydn/CLionProjects/4001Assignment3/semfuncs.h">
+			<Option target="4001Assignment3"/>
+		</Unit>
 		<Unit filename="/home/haydn/CLionProjects/4001Assignment3/shared_memory.h">
 			<Option target="4001Assignment3"/>
 		</Unit>

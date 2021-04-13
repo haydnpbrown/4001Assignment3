@@ -3,4 +3,4 @@ project(4001Assignment3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(4001Assignment3 main.c process2.c shared_memory.h)
+add_executable(4001Assignment3 main.c process2.c shared_memory.h semfuncs.c semfuncs.h)

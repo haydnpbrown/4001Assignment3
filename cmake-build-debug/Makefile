@@ -196,6 +196,33 @@ process2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/process2.c.s
 .PHONY : process2.c.s
 
+semfuncs.o: semfuncs.c.o
+
+.PHONY : semfuncs.o
+
+# target to build an object file
+semfuncs.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/semfuncs.c.o
+.PHONY : semfuncs.c.o
+
+semfuncs.i: semfuncs.c.i
+
+.PHONY : semfuncs.i
+
+# target to preprocess a source file
+semfuncs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/semfuncs.c.i
+.PHONY : semfuncs.c.i
+
+semfuncs.s: semfuncs.c.s
+
+.PHONY : semfuncs.s
+
+# target to generate assembly for a file
+semfuncs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/semfuncs.c.s
+.PHONY : semfuncs.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,6 +238,9 @@ help:
 	@echo "... process2.o"
 	@echo "... process2.i"
 	@echo "... process2.s"
+	@echo "... semfuncs.o"
+	@echo "... semfuncs.i"
+	@echo "... semfuncs.s"
 .PHONY : help
 
 

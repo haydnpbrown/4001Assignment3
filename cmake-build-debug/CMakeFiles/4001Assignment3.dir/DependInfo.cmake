@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/haydn/CLionProjects/4001Assignment3/main.c" "/home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/main.c.o"
   "/home/haydn/CLionProjects/4001Assignment3/process2.c" "/home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/process2.c.o"
+  "/home/haydn/CLionProjects/4001Assignment3/semfuncs.c" "/home/haydn/CLionProjects/4001Assignment3/cmake-build-debug/CMakeFiles/4001Assignment3.dir/semfuncs.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
