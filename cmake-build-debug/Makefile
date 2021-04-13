@@ -142,6 +142,33 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/build
 .PHONY : 4001Assignment3/fast
 
+iteration6.o: iteration6.c.o
+
+.PHONY : iteration6.o
+
+# target to build an object file
+iteration6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/iteration6.c.o
+.PHONY : iteration6.c.o
+
+iteration6.i: iteration6.c.i
+
+.PHONY : iteration6.i
+
+# target to preprocess a source file
+iteration6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/iteration6.c.i
+.PHONY : iteration6.c.i
+
+iteration6.s: iteration6.c.s
+
+.PHONY : iteration6.s
+
+# target to generate assembly for a file
+iteration6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4001Assignment3.dir/build.make CMakeFiles/4001Assignment3.dir/iteration6.c.s
+.PHONY : iteration6.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -232,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 4001Assignment3"
+	@echo "... iteration6.o"
+	@echo "... iteration6.i"
+	@echo "... iteration6.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
